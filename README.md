@@ -33,16 +33,7 @@ Simply create your new migration and add changes to the taxonomy using the keywo
 ## Data Format
 
 ### Example: Adding an ecosystem and connecting it.
-```lua
--- Add ecosystems with the ecoadd keyword.  You can start a line with -- to denote a comment.
-ecoadd Lightning
--- Add repos to ecosystems using the repadd keyword
-repadd Lightning https://github.com/lightningnetwork/lnd #protocol
--- Connect ecosystems using the ecocon keyword.
--- The following connects Lighting as a sub ecosystem of Bitcoin.
-ecocon Bitcoin Lighting
-```
-  
+
 ## How to Give Attribution For Usage of the Electric Capital Crypto Ecosystems
 
 The repository is licensed under [MIT license with attribution](https://github.com/electric-capital/crypto-ecosystems/blob/master/LICENSE).

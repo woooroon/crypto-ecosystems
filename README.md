@@ -23,9 +23,7 @@ By using the branch attribute, you can see how particular repos are attributed t
 
 ## How to update the taxonomy
 There is a domain specific language (DSL) containing the keywords that can make changes to the taxonomy.  You specify migrations by using files of the format
-```bash
-migrations/YYYY-MM-DDThhmmss_description_of_your_migration
-```
+
 
 The datetime format is a loosely ISO8601 but without the ':' characters to make them valid files on Windows.
 

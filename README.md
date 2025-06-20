@@ -10,9 +10,7 @@ You can export the taxonomy to a json format by using the following command:
 
 
 If you want to export a single ecosystem, its sub ecosystems, and its repositories, you can use the `-e` parameter to specify a particular ecosystem.
-```bash
-./run.sh export -e Bitcoin bitcoin.jsonl
-```
+
 
 The export format is one json entry per line like the following:
 

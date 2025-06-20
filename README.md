@@ -15,10 +15,7 @@ If you want to export a single ecosystem, its sub ecosystems, and its repositori
 ```
 
 The export format is one json entry per line like the following:
-```json
-{"eco_name":"Bitcoin","branch":["Lightning"],"repo_url":"https://github.com/alexbosworth/balanceofsatoshis","tags":["#developer-tool"]}
-{"eco_name":"Bitcoin","branch":["Lightning"],"repo_url":"https://github.com/bottlepay/lnd","tags":[]}
-```
+
 By using the branch attribute, you can see how particular repos are attributed to the parent ecosystem.
 
 ## How to update the taxonomy

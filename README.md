@@ -23,10 +23,7 @@ There is a domain specific language (DSL) containing the keywords that can make 
 The datetime format is a loosely ISO8601 but without the ':' characters to make them valid files on Windows.
 
 Some examples migration filenames could be:
-```bash
-migrations/2009-01-03T181500_add_bitcoin
-migrations/2015-07-30T152613_add_ethereum
-```
+
 
 Simply create your new migration and add changes to the taxonomy using the keywords discussed below.
 

@@ -7,9 +7,7 @@ This dataset is not complete, and hopefully it never will be as there are new ec
 The taxonomy can be used to generate the set of crypto ecosystems, their corresponding sub ecosystems, and repositories at a particular time.
 
 You can export the taxonomy to a json format by using the following command:
-```bash
-./run.sh export exports.jsonl
-```
+
 
 If you want to export a single ecosystem, its sub ecosystems, and its repositories, you can use the `-e` parameter to specify a particular ecosystem.
 ```bash
